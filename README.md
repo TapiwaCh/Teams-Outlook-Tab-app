@@ -91,3 +91,26 @@ SET DEBUG=msteams
 ```
 
 If you are using Microsoft Azure to host your Microsoft Teams app, then you can add `DEBUG` as an Application Setting with the value of `msteams`.
+
+Upload your application to Teams
+Go to Teams and select Apps :::image type="content" source="~/assets/images/tab-images/store.png" alt-text="Teams Store":::.
+
+Select Manage your apps > Upload an app > Upload a custom app.
+
+Go to your project directory, browse to the ./package folder, select the zip folder, and choose Open.
+
+:::image type="content" source="~/assets/images/tab-images/addingpersonaltab.png" alt-text="Adding your personal tab":::
+
+Select Add in the dialog. Your tab is uploaded to Teams.
+
+:::image type="content" source="~/assets/images/tab-images/personaltabuploaded.png" alt-text="Personal tab uploaded":::
+
+In the left pane of Teams, select ellipses ●●● and then choose your uploaded app to view your personal tab.
+
+Now you've successfully created and added your personal tab in Teams.
+
+As you have your personal tab in Teams, you can also reorder your personal tab.
+
+::: zone-end
+
+::: zone pivot="razor-csharp"
