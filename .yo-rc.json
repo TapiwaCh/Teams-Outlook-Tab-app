@@ -1,0 +1,12 @@
+{
+  "generator-teams": {
+    "generator-version": "4.0.1",
+    "promptValues": {
+      "developer": "tzbqw",
+      "unitTestsEnabled": false,
+      "lintingSupport": false,
+      "useAzureAppInsights": false
+    },
+    "libraryName": "outlookCmdApp"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "9b913000-acf2-11ed-bb8e-f7fd81fecf29",
+  "version": "0.0.1",
+  "packageName": "outlookcmdapp",
+  "developer": {
+    "name": "tzbqw",
+    "websiteUrl": "https://0e75-169-0-102-147.ngrok.io",
+    "privacyUrl": "https://0e75-169-0-102-147.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://0e75-169-0-102-147.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "OutlookCmdApp",
+    "full": "OutlookCmdApp"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "personalTab",
+      "name": "Personal Tab ",
+      "contentUrl": "https://0e75-169-0-102-147.ngrok.io/testTab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "0e75-169-0-102-147.ngrok.io"
+  ],
+  "showLoadingIndicator": false,
+  "isFullScreen": false
+}
