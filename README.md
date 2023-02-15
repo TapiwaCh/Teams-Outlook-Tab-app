@@ -90,27 +90,36 @@ Example for Windows command line:
 SET DEBUG=msteams
 ```
 
-If you are using Microsoft Azure to host your Microsoft Teams app, then you can add `DEBUG` as an Application Setting with the value of `msteams`.
+### Establish a secure tunnel to your tab
 
-Upload your application to Teams
-Go to Teams and select Apps :::image type="content" source="~/assets/images/tab-images/store.png" alt-text="Teams Store":::.
+At the command prompt exit the localhost and enter the following command to establish a secure tunnel to your tab:
 
-Select Manage your apps > Upload an app > Upload a custom app.
+```cmd
+gulp ngrok-serve
+```
 
-Go to your project directory, browse to the ./package folder, select the zip folder, and choose Open.
+> [!IMPORTANT]
+> After your tab is uploaded to Microsoft Teams through **ngrok**, and successfully saved, you can view it in Teams until your tunnel session ends.
 
-:::image type="content" source="~/assets/images/tab-images/addingpersonaltab.png" alt-text="Adding your personal tab":::
+### Upload your application to Teams
 
-Select Add in the dialog. Your tab is uploaded to Teams.
+1. Go to Teams and select **Apps**&nbsp;:::image type="content" source="~/assets/images/tab-images/store.png" alt-text="Teams Store":::.
+1. Select **Manage your apps** > **Upload an app** > **Upload a custom app**.
+1. Go to your project directory, browse to the **./package** folder, select the zip folder, and choose **Open**.
 
-:::image type="content" source="~/assets/images/tab-images/personaltabuploaded.png" alt-text="Personal tab uploaded":::
+    :::image type="content" source="~/assets/images/tab-images/addingpersonaltab.png" alt-text="Adding your personal tab":::
 
-In the left pane of Teams, select ellipses ●●● and then choose your uploaded app to view your personal tab.
+1. Select **Add** in the dialog. Your tab is uploaded to Teams.
 
-Now you've successfully created and added your personal tab in Teams.
+    :::image type="content" source="~/assets/images/tab-images/personaltabuploaded.png" alt-text="Personal tab uploaded":::
 
-As you have your personal tab in Teams, you can also reorder your personal tab.
+1. In the left pane of Teams, select ellipses &#x25CF;&#x25CF;&#x25CF; and then choose your uploaded app to view your personal tab.
+
+   Now you've successfully created and added your personal tab in Teams.
+  
+   As you have your personal tab in Teams, you can also [reorder](#reorder-static-personal-tabs) your personal tab.
 
 ::: zone-end
 
 ::: zone pivot="razor-csharp"
+
