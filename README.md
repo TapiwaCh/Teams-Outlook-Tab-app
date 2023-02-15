@@ -116,6 +116,6 @@ gulp ngrok-serve
   
    As you have your personal tab in Teams, you can also [reorder](#reorder-static-personal-tabs) your personal tab.
 
-## Useful links
+#### Useful links
 
 * [Upload Tutorial](https://learn.microsoft.com/en-us/microsoftteams/platform/tabs/how-to/create-personal-tab?pivots=node-java-script#upload-your-application-to-teams)
