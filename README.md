@@ -118,4 +118,4 @@ gulp ngrok-serve
 
 ## Useful links
 
-* [Upload Tutorial]([https://learn.microsoft.com/en-us/microsoftteams/platform/tabs/how-to/create-personal-tab?pivots=node-java-script#upload-your-application-to-teams])
+* [Upload Tutorial](https://learn.microsoft.com/en-us/microsoftteams/platform/tabs/how-to/create-personal-tab?pivots=node-java-script#upload-your-application-to-teams)
